@@ -22,13 +22,9 @@ document.getElementById("iniciar").addEventListener("click", function () {
         console.log("Error: Debes ingresar tu contraseña");
         hayError = true;
     }
-    if (contraseña.length < 8) {
+    if (contraseña && contraseña.length < 8) {
         console.log("Error: La contraseña debe tener al menos 8 caracteres");
         hayError = true;
-    }
-    else {
-        // Mensaje si esta todo correcto
-        console.log(`Registro exitoso. ¡Bienvenido, ${nombre.trim()}!`);
     }
 
     if (hayError) {
