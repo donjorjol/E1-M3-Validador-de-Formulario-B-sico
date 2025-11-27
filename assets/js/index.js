@@ -30,7 +30,7 @@ document.getElementById("iniciar").addEventListener("click", function () {
         // En caso de existir al menos un error
         console.log("Registro FALLIDO. Por favor, corrige los errores y vuelve a intentarlo.");
     } else {
-        // En caso de que todos los datos fueron ingresados correctamente
+        // En caso de que todos los datos fueron ingresados correctamente quitando mensaje repetido
         console.log("¡REGISTRO EXITOSO!");
         console.log(`Bienvenido, ${nombre.trim()}`);
         console.log(`Tu correo: ${email}`);
