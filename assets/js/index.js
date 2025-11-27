@@ -8,7 +8,7 @@ document.getElementById("iniciar").addEventListener("click", function () {
 
     // Validación de los datos ingresados
 
-    let hayError = false;
+    let hayError = false; // Variable de Control
 
     if (!nombre || nombre.trim() === "") {
         console.log("Error: Debes ingresar tu nombre");
