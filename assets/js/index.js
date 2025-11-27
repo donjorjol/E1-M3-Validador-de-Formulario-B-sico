@@ -1,5 +1,5 @@
 document.getElementById("iniciar").addEventListener("click", function () {
-    console.clear();
+    console.clear(); // limpiar consola
 
     // Formulario con los prompt
     const nombre = prompt("Por favor, ingresa tu nombre:");
