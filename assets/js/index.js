@@ -24,8 +24,7 @@ document.getElementById("iniciar").addEventListener("click", function () {
     }
     if (contraseña && contraseña.length < 8) {
         console.log("Error: La contraseña debe tener al menos 8 caracteres");
-        hayError = true;
-    }
+        hayError = true;    }
 
     if (hayError) {
         // En caso de existir al menos un error
